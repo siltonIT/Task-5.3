@@ -2,8 +2,8 @@
 
 int main()
 {
-    const int ROW_LEN = 3;
-    const int COLUMN_LEN = 5;
+    const int ROW_LEN = 10;
+    const int COLUMN_LEN = 7;
     int matrix[COLUMN_LEN][ROW_LEN];
 
     int* par[COLUMN_LEN];
@@ -15,7 +15,11 @@ int main()
 
     fill_matrix(par, ROW_LEN, COLUMN_LEN);
 
+    cout << "Not sort matrix:" << endl;
+    write_matrix(par, ROW_LEN, COLUMN_LEN);
+
     sort_matrix(par, ROW_LEN, COLUMN_LEN);
 
+    cout << "Sort matrix:" << endl;
     write_matrix(par, ROW_LEN, COLUMN_LEN);
 }

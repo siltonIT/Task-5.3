@@ -1,5 +1,6 @@
-#include "UserInterface.h"
+#include "user_interface.h"
 
+//Функция заполняет матрицу рандомными значениями
 void fill_matrix(int** matrix, const int ROW_LEN, const int COLUMN_LEN)
 {
     const int MIN_BORDER = 10;
@@ -14,6 +15,7 @@ void fill_matrix(int** matrix, const int ROW_LEN, const int COLUMN_LEN)
     }
 }
 
+//Функция вывода матрицы 
 void write_matrix(int** matrix, const int ROW_LEN, const int COLUMN_LEN)
 {
     for (int i = 0; i < COLUMN_LEN; ++i)

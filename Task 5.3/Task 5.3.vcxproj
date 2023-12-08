@@ -129,12 +129,12 @@
   <ItemGroup>
     <ClCompile Include="Sort.cpp" />
     <ClCompile Include="Task 5.3.cpp" />
-    <ClCompile Include="UserInterface.cpp" />
+    <ClCompile Include="user_interface.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Main.h" />
     <ClInclude Include="Sort.h" />
-    <ClInclude Include="UserInterface.h" />
+    <ClInclude Include="user_interface.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

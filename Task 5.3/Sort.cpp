@@ -1,5 +1,6 @@
 #include "Sort.h"
 
+//сортирова матрицы по строчно 
 void sort_matrix(int** matrix, const int ROW_LEN, const int COLUMN_LEN)
 {
     int delta = 0;
@@ -25,6 +26,7 @@ void sort_matrix(int** matrix, const int ROW_LEN, const int COLUMN_LEN)
     }
 }
 
+//Функция разворота строк матрицы 
 void swap(int** matrix, int ind_1, int ind_2, const int ROW_LEN)
 {
     int swap;
